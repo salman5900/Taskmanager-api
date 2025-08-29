@@ -16,6 +16,9 @@ class TaskViewSet(viewsets.ModelViewSet):
     ordering_fields = ['priority', 'created_at']
 
     def get_queryset(self):
+        user = self.request.user
+        if user.is_superuser:
+            return self.queryset
         return self.queryset.filter(user=self.request.user)
 
     def perform_create(self, serializer):
