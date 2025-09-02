@@ -192,6 +192,6 @@ Authentication is handled via JWT. To access protected endpoints, include an `Au
 ## 🔗 Live Demo
 
 You can explore and test the **Office Task Manager API** live at:  
-**[https://taskmanager-api-wo3z.onrender.com/](https://taskmanager-api-wo3z.onrender.com/)**  
+**[Click Here](https://taskmanager-api-wo3z.onrender.com/)**  
 
 No API key is required. You can register a new user, log in, and test all endpoints directly via the browser or tools like Postman.
