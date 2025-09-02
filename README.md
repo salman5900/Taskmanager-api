@@ -188,3 +188,10 @@ Authentication is handled via JWT. To access protected endpoints, include an `Au
 -   **Endpoint:** `DELETE /api/v1/tasks/{id}/`
 -   **Description:** Deletes a specific task.
 -   **Restriction:** This action is **denied** if the task's `is_completed` status is `true`.
+
+## 🔗 Live Demo
+
+You can explore and test the **Office Task Manager API** live at:  
+**[https://taskmanager-api-wo3z.onrender.com/](https://taskmanager-api-wo3z.onrender.com/)**  
+
+No API key is required. You can register a new user, log in, and test all endpoints directly via the browser or tools like Postman.
